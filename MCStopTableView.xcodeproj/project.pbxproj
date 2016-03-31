@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C151C3A1CAB7506006AA272 /* MCStopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C151C391CAB7506006AA272 /* MCStopView.m */; };
+		4C151C3E1CAB84E4006AA272 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C151C3D1CAB84E4006AA272 /* HMSegmentedControl.m */; };
+		4C151C411CAB9392006AA272 /* 8d82c08430e7780d5c257ddb1b1401b8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C151C401CAB9392006AA272 /* 8d82c08430e7780d5c257ddb1b1401b8.jpg */; };
+		4C151C471CAB9991006AA272 /* MCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C151C461CAB9991006AA272 /* MCTableViewController.m */; };
+		4C2DD2EF1CAB6D67001E63D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2DD2EE1CAB6D67001E63D6 /* main.m */; };
+		4C2DD2F21CAB6D67001E63D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2DD2F11CAB6D67001E63D6 /* AppDelegate.m */; };
+		4C2DD2F51CAB6D67001E63D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2DD2F41CAB6D67001E63D6 /* ViewController.m */; };
+		4C2DD2FA1CAB6D67001E63D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DD2F91CAB6D67001E63D6 /* Assets.xcassets */; };
+		4C2DD3081CAB6D68001E63D6 /* MCStopTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2DD3071CAB6D68001E63D6 /* MCStopTableViewTests.m */; };
+		4C2DD3131CAB6D68001E63D6 /* MCStopTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2DD3121CAB6D68001E63D6 /* MCStopTableViewUITests.m */; };
+		4C2DD3211CAB6F42001E63D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C2DD3201CAB6F42001E63D6 /* Default-568h@2x.png */; };
+		4C3D6A8B1CABC86C007BD676 /* MCContentCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D6A8A1CABC86C007BD676 /* MCContentCollectionView.m */; };
+		4CD8FF4A1CACE7E000220466 /* UINavigationBar+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8FF491CACE7E000220466 /* UINavigationBar+Background.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2DD3041CAB6D68001E63D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2DD2E21CAB6D67001E63D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C2DD2E91CAB6D67001E63D6;
+			remoteInfo = MCStopTableView;
+		};
+		4C2DD30F1CAB6D68001E63D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2DD2E21CAB6D67001E63D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C2DD2E91CAB6D67001E63D6;
+			remoteInfo = MCStopTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C151C381CAB7506006AA272 /* MCStopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCStopView.h; sourceTree = "<group>"; };
+		4C151C391CAB7506006AA272 /* MCStopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCStopView.m; sourceTree = "<group>"; };
+		4C151C3C1CAB84E4006AA272 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		4C151C3D1CAB84E4006AA272 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		4C151C401CAB9392006AA272 /* 8d82c08430e7780d5c257ddb1b1401b8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8d82c08430e7780d5c257ddb1b1401b8.jpg; sourceTree = "<group>"; };
+		4C151C451CAB9991006AA272 /* MCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTableViewController.h; sourceTree = "<group>"; };
+		4C151C461CAB9991006AA272 /* MCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTableViewController.m; sourceTree = "<group>"; };
+		4C2DD2EA1CAB6D67001E63D6 /* MCStopTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCStopTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2DD2EE1CAB6D67001E63D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C2DD2F01CAB6D67001E63D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C2DD2F11CAB6D67001E63D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C2DD2F31CAB6D67001E63D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C2DD2F41CAB6D67001E63D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C2DD2F91CAB6D67001E63D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C2DD2FE1CAB6D68001E63D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2DD3031CAB6D68001E63D6 /* MCStopTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCStopTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2DD3071CAB6D68001E63D6 /* MCStopTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCStopTableViewTests.m; sourceTree = "<group>"; };
+		4C2DD3091CAB6D68001E63D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2DD30E1CAB6D68001E63D6 /* MCStopTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCStopTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2DD3121CAB6D68001E63D6 /* MCStopTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCStopTableViewUITests.m; sourceTree = "<group>"; };
+		4C2DD3141CAB6D68001E63D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2DD3201CAB6F42001E63D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4C3D6A891CABC86C007BD676 /* MCContentCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCContentCollectionView.h; sourceTree = "<group>"; };
+		4C3D6A8A1CABC86C007BD676 /* MCContentCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCContentCollectionView.m; sourceTree = "<group>"; };
+		4CD8FF481CACE7E000220466 /* UINavigationBar+Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Background.h"; sourceTree = "<group>"; };
+		4CD8FF491CACE7E000220466 /* UINavigationBar+Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Background.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2DD2E71CAB6D67001E63D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2DD3001CAB6D68001E63D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2DD30B1CAB6D68001E63D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C151C371CAB741B006AA272 /* MCStopTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4C151C3F1CAB9392006AA272 /* image */,
+				4C151C3B1CAB84E4006AA272 /* HMSegmentedControl */,
+				4C151C381CAB7506006AA272 /* MCStopView.h */,
+				4C151C391CAB7506006AA272 /* MCStopView.m */,
+				4C151C451CAB9991006AA272 /* MCTableViewController.h */,
+				4C151C461CAB9991006AA272 /* MCTableViewController.m */,
+				4C3D6A891CABC86C007BD676 /* MCContentCollectionView.h */,
+				4C3D6A8A1CABC86C007BD676 /* MCContentCollectionView.m */,
+			);
+			path = MCStopTableView;
+			sourceTree = "<group>";
+		};
+		4C151C3B1CAB84E4006AA272 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				4C151C3C1CAB84E4006AA272 /* HMSegmentedControl.h */,
+				4C151C3D1CAB84E4006AA272 /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		4C151C3F1CAB9392006AA272 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				4C151C401CAB9392006AA272 /* 8d82c08430e7780d5c257ddb1b1401b8.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		4C2DD2E11CAB6D67001E63D6 = {
+			isa = PBXGroup;
+			children = (
+				4C2DD3201CAB6F42001E63D6 /* Default-568h@2x.png */,
+				4C2DD2EC1CAB6D67001E63D6 /* MCStopTableView */,
+				4C2DD3061CAB6D68001E63D6 /* MCStopTableViewTests */,
+				4C2DD3111CAB6D68001E63D6 /* MCStopTableViewUITests */,
+				4C2DD2EB1CAB6D67001E63D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2DD2EB1CAB6D67001E63D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2DD2EA1CAB6D67001E63D6 /* MCStopTableView.app */,
+				4C2DD3031CAB6D68001E63D6 /* MCStopTableViewTests.xctest */,
+				4C2DD30E1CAB6D68001E63D6 /* MCStopTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2DD2EC1CAB6D67001E63D6 /* MCStopTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4C5795971CACCEB200A18BD9 /* MCnavigationHidden */,
+				4C151C371CAB741B006AA272 /* MCStopTableView */,
+				4C2DD2F01CAB6D67001E63D6 /* AppDelegate.h */,
+				4C2DD2F11CAB6D67001E63D6 /* AppDelegate.m */,
+				4C2DD2F31CAB6D67001E63D6 /* ViewController.h */,
+				4C2DD2F41CAB6D67001E63D6 /* ViewController.m */,
+				4C2DD2F91CAB6D67001E63D6 /* Assets.xcassets */,
+				4C2DD2FE1CAB6D68001E63D6 /* Info.plist */,
+				4C2DD2ED1CAB6D67001E63D6 /* Supporting Files */,
+			);
+			path = MCStopTableView;
+			sourceTree = "<group>";
+		};
+		4C2DD2ED1CAB6D67001E63D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C2DD2EE1CAB6D67001E63D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C2DD3061CAB6D68001E63D6 /* MCStopTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C2DD3071CAB6D68001E63D6 /* MCStopTableViewTests.m */,
+				4C2DD3091CAB6D68001E63D6 /* Info.plist */,
+			);
+			path = MCStopTableViewTests;
+			sourceTree = "<group>";
+		};
+		4C2DD3111CAB6D68001E63D6 /* MCStopTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C2DD3121CAB6D68001E63D6 /* MCStopTableViewUITests.m */,
+				4C2DD3141CAB6D68001E63D6 /* Info.plist */,
+			);
+			path = MCStopTableViewUITests;
+			sourceTree = "<group>";
+		};
+		4C5795971CACCEB200A18BD9 /* MCnavigationHidden */ = {
+			isa = PBXGroup;
+			children = (
+				4CD8FF481CACE7E000220466 /* UINavigationBar+Background.h */,
+				4CD8FF491CACE7E000220466 /* UINavigationBar+Background.m */,
+			);
+			path = MCnavigationHidden;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C2DD2E91CAB6D67001E63D6 /* MCStopTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2DD3171CAB6D68001E63D6 /* Build configuration list for PBXNativeTarget "MCStopTableView" */;
+			buildPhases = (
+				4C2DD2E61CAB6D67001E63D6 /* Sources */,
+				4C2DD2E71CAB6D67001E63D6 /* Frameworks */,
+				4C2DD2E81CAB6D67001E63D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCStopTableView;
+			productName = MCStopTableView;
+			productReference = 4C2DD2EA1CAB6D67001E63D6 /* MCStopTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C2DD3021CAB6D68001E63D6 /* MCStopTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2DD31A1CAB6D68001E63D6 /* Build configuration list for PBXNativeTarget "MCStopTableViewTests" */;
+			buildPhases = (
+				4C2DD2FF1CAB6D68001E63D6 /* Sources */,
+				4C2DD3001CAB6D68001E63D6 /* Frameworks */,
+				4C2DD3011CAB6D68001E63D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2DD3051CAB6D68001E63D6 /* PBXTargetDependency */,
+			);
+			name = MCStopTableViewTests;
+			productName = MCStopTableViewTests;
+			productReference = 4C2DD3031CAB6D68001E63D6 /* MCStopTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C2DD30D1CAB6D68001E63D6 /* MCStopTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2DD31D1CAB6D68001E63D6 /* Build configuration list for PBXNativeTarget "MCStopTableViewUITests" */;
+			buildPhases = (
+				4C2DD30A1CAB6D68001E63D6 /* Sources */,
+				4C2DD30B1CAB6D68001E63D6 /* Frameworks */,
+				4C2DD30C1CAB6D68001E63D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2DD3101CAB6D68001E63D6 /* PBXTargetDependency */,
+			);
+			name = MCStopTableViewUITests;
+			productName = MCStopTableViewUITests;
+			productReference = 4C2DD30E1CAB6D68001E63D6 /* MCStopTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2DD2E21CAB6D67001E63D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MC;
+				TargetAttributes = {
+					4C2DD2E91CAB6D67001E63D6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					4C2DD3021CAB6D68001E63D6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4C2DD2E91CAB6D67001E63D6;
+					};
+					4C2DD30D1CAB6D68001E63D6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4C2DD2E91CAB6D67001E63D6;
+					};
+				};
+			};
+			buildConfigurationList = 4C2DD2E51CAB6D67001E63D6 /* Build configuration list for PBXProject "MCStopTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C2DD2E11CAB6D67001E63D6;
+			productRefGroup = 4C2DD2EB1CAB6D67001E63D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2DD2E91CAB6D67001E63D6 /* MCStopTableView */,
+				4C2DD3021CAB6D68001E63D6 /* MCStopTableViewTests */,
+				4C2DD30D1CAB6D68001E63D6 /* MCStopTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2DD2E81CAB6D67001E63D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2DD2FA1CAB6D67001E63D6 /* Assets.xcassets in Resources */,
+				4C151C411CAB9392006AA272 /* 8d82c08430e7780d5c257ddb1b1401b8.jpg in Resources */,
+				4C2DD3211CAB6F42001E63D6 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2DD3011CAB6D68001E63D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2DD30C1CAB6D68001E63D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2DD2E61CAB6D67001E63D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C151C3A1CAB7506006AA272 /* MCStopView.m in Sources */,
+				4C2DD2F51CAB6D67001E63D6 /* ViewController.m in Sources */,
+				4C3D6A8B1CABC86C007BD676 /* MCContentCollectionView.m in Sources */,
+				4C2DD2F21CAB6D67001E63D6 /* AppDelegate.m in Sources */,
+				4C151C471CAB9991006AA272 /* MCTableViewController.m in Sources */,
+				4CD8FF4A1CACE7E000220466 /* UINavigationBar+Background.m in Sources */,
+				4C2DD2EF1CAB6D67001E63D6 /* main.m in Sources */,
+				4C151C3E1CAB84E4006AA272 /* HMSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2DD2FF1CAB6D68001E63D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2DD3081CAB6D68001E63D6 /* MCStopTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2DD30A1CAB6D68001E63D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2DD3131CAB6D68001E63D6 /* MCStopTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C2DD3051CAB6D68001E63D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C2DD2E91CAB6D67001E63D6 /* MCStopTableView */;
+			targetProxy = 4C2DD3041CAB6D68001E63D6 /* PBXContainerItemProxy */;
+		};
+		4C2DD3101CAB6D68001E63D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C2DD2E91CAB6D67001E63D6 /* MCStopTableView */;
+			targetProxy = 4C2DD30F1CAB6D68001E63D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C2DD3151CAB6D68001E63D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C2DD3161CAB6D68001E63D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C2DD3181CAB6D68001E63D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCStopTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.MCStopTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C2DD3191CAB6D68001E63D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MCStopTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.MCStopTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C2DD31B1CAB6D68001E63D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCStopTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.MCStopTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCStopTableView.app/MCStopTableView";
+			};
+			name = Debug;
+		};
+		4C2DD31C1CAB6D68001E63D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MCStopTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.MCStopTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCStopTableView.app/MCStopTableView";
+			};
+			name = Release;
+		};
+		4C2DD31E1CAB6D68001E63D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCStopTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.MCStopTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCStopTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4C2DD31F1CAB6D68001E63D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MCStopTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.MCStopTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MCStopTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2DD2E51CAB6D67001E63D6 /* Build configuration list for PBXProject "MCStopTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2DD3151CAB6D68001E63D6 /* Debug */,
+				4C2DD3161CAB6D68001E63D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2DD3171CAB6D68001E63D6 /* Build configuration list for PBXNativeTarget "MCStopTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2DD3181CAB6D68001E63D6 /* Debug */,
+				4C2DD3191CAB6D68001E63D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2DD31A1CAB6D68001E63D6 /* Build configuration list for PBXNativeTarget "MCStopTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2DD31B1CAB6D68001E63D6 /* Debug */,
+				4C2DD31C1CAB6D68001E63D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2DD31D1CAB6D68001E63D6 /* Build configuration list for PBXNativeTarget "MCStopTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2DD31E1CAB6D68001E63D6 /* Debug */,
+				4C2DD31F1CAB6D68001E63D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2DD2E21CAB6D67001E63D6 /* Project object */;
+}
